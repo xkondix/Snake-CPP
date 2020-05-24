@@ -12,7 +12,7 @@ int l,k;
 bool petl = true;
 while(petl)
 {
-cout<<endl<<"Podaj numer zadania 1-11, zeby wyjsc nacisnij 0"<<endl;
+cout<<endl<<"Podaj numer zadania 1-12, zeby wyjsc nacisnij 0"<<endl;
 cin>>w;
 
 switch(w)
@@ -77,6 +77,12 @@ switch(w)
 	case 11:
 	{
 		konrad->zadZwracanie();
+		break;
+	}
+
+	case 12:
+	{
+		konrad->swi();
 		break;
 	}
 

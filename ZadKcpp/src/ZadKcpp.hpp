@@ -11,6 +11,7 @@
 #include "../include/ZadUnia.h"
 #include "../include/ZadWywolanieFunkcji.h"
 #include "../include/ZadZwracanie.h"
+#include "../include/switch.h"
 
 
 class ZadKccpKowalczyk
@@ -32,10 +33,14 @@ void zadPriorytetyOperatorow();
 void zadPrzekazywanieTablicy();
 void zadUnia();
 void zadZwracanie();
+void swi();
 
 };
 
-
+void ZadKccpKowalczyk::swi()
+{
+swit();
+}
 
 void ZadKccpKowalczyk::zadArytmetykaWskaznikow()
 {
