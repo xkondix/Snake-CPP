@@ -44,6 +44,7 @@ int varInt2;
 cout<<"Podaj liczbe: ";
 scanf("%i", &varInt);
 cin>>varInt2;
+cout<<varInt<<endl;
 
 //w c jak przy odczycie, rozne litery zalezne od tego co chcemy odczytac, a c++ cin, czyli strumien
 

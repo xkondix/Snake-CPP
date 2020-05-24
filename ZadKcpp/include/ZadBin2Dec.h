@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
 
-int zadBin2DecH(int i)
+void zadBin2DecH(int i)
 {
     int pot = 0;
     int result = 0;
@@ -12,7 +12,7 @@ int zadBin2DecH(int i)
         pot++;
     }
 
-return result;
+cout<<endl<<result<<endl;
 }
 
 

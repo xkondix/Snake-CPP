@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int zadDec2BinH(int dec)
+void zadDec2BinH(int dec)
 {
 
     string result ="";
@@ -17,7 +17,7 @@ int zadDec2BinH(int dec)
 
     reverse(result.begin(),result.end()); //bit/stdc++
 
-    return stoi(result); //stoi c++11 standard
+    cout<<endl<<stoi(result)<<endl; //stoi c++11 standard
 }
 
 
