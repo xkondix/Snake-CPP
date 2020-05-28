@@ -209,6 +209,7 @@ int main()
 				list.freeAll();
 				list.pushFirst(body);
 				k,l=3;
+				fast = 0.200;
 				break;
 				
 			}
